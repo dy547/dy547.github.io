@@ -1,12 +1,12 @@
 ---
-title: "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems"
+title: "A Hallucination Metric and Correction Scheme for Diffusion-Based Image Restoration"
 collection: publications
 category: conferences
-venue: 'IEEE International Workshop on Multimedia Signal Processing'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/10337733'
+venue: 'IEEE International Workshop on Machine Learning for Signal Processing'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10734729'
 ---
 
-**D. You**, A. Floros and P. L. Dragotti, "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems," 2023 IEEE 25th International Workshop on Multimedia Signal Processing (MMSP), Poitiers, France, 2023, pp. 1-6, doi: 10.1109/MMSP59012.2023.10337733. 
+D. Siromani, **D. You** and P. L. Dragotti, "A Hallucination Metric and Correction Scheme for Diffusion-Based Image Restoration," 2024 IEEE 34th International Workshop on Machine Learning for Signal Processing (MLSP), London, United Kingdom, 2024, pp. 1-6, doi: 10.1109/MLSP58920.2024.10734729.
 
 
 
