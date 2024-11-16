@@ -2,6 +2,7 @@
 title: "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems"
 collection: publications
 category: conferences
+venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
