@@ -21,7 +21,7 @@ repository               : "dy547/dy547.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "di.png"
   name             : "Di You"
   pronouns         : # example: "she/her"  
   bio              : "PhD student"
