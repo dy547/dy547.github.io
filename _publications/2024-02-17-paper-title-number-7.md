@@ -1,5 +1,5 @@
 ---
-title: "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems"
+title: "Wimans: A benchmark dataset for wifi-based multi-user activity sensing"
 collection: publications
 category: conferences
 venue: 'European Conference on Computer Vision'
