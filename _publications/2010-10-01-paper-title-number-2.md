@@ -3,7 +3,6 @@ title: "COAST: COntrollable Arbitrary-Sampling NeTwork for Compressive Sensing"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2010-10-01
 venue: 'Journal 1'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9467810'
