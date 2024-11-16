@@ -1,12 +1,14 @@
 ---
-title: "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems"
+title: "ISTA-Net++: Flexible Deep Unfolding Network for Compressive Sensing"
 collection: publications
 category: conferences
-venue: 'IEEE International Workshop on Multimedia Signal Processing'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/10337733'
+venue: 'IEEE International Conference on Multimedia and Expo (ICME)'
+paperurl: 'https://ieeexplore.ieee.org/document/9428249'
 ---
 
-**D. You**, A. Floros and P. L. Dragotti, "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems," 2023 IEEE 25th International Workshop on Multimedia Signal Processing (MMSP), Poitiers, France, 2023, pp. 1-6, doi: 10.1109/MMSP59012.2023.10337733. 
+**D. You**, J. Xie and J. Zhang, "ISTA-NET++: Flexible Deep Unfolding Network for Compressive Sensing," 2021 IEEE International Conference on Multimedia and Expo (ICME), Shenzhen, China, 2021, pp. 1-6, doi: 10.1109/ICME51207.2021.9428249. 
+
+
 
 
 
