@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Di You"
   pronouns         : # example: "she/her"  
-  bio              : ""
-  location         : # "Earth"
-  employer         : # "Red Brick University"
+  bio              : "Communications and Signal Processing Group"
+  location         : "Department of Electrical and Electronic Engineering"
+  employer         : "Imperial College London"
   uri              : # URL
   email            : "dy22@ic.ac.uk" 
 
