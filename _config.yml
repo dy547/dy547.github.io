@@ -25,7 +25,7 @@ author:
   name             : "Di You"
   pronouns         : # example: "she/her"  
   bio              : ""
-  location         : "Earth"
+  location         : # "Earth"
   employer         : # "Red Brick University"
   uri              : # URL
   email            : "dy22@ic.ac.uk" 
