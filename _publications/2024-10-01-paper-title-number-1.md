@@ -8,4 +8,5 @@ paperurl: 'https://ieeexplore.ieee.org/document/10670023'
 
 **D. You** and P. L. Dragotti, "INDIGO+: A Unified INN-Guided Probabilistic Diffusion Algorithm for Blind and Non-Blind Image Restoration," in IEEE Journal of Selected Topics in Signal Processing, doi: 10.1109/JSTSP.2024.3454957.
 
-[CODE](https://github.com/dy547/indigo_plus)
+[Code](https://github.com/dy547/indigo_plus)
+[Paper]([https://github.com/dy547/indigo_plus](https://ieeexplore.ieee.org/document/10670023))
