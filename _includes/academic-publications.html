@@ -1,0 +1,25 @@
+<ol class="paper-list">
+  {% for publication in site.data.homepage_publications %}
+    {% assign teaser = site.data.homepage_teasers[publication.id] %}
+    <li class="paper" id="{{ publication.id }}">
+      {% if teaser %}
+        <a class="paper-figure" href="{{ publication.links.first.url | escape }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ teaser | relative_url }}" alt="Overview figure from {{ publication.title | escape }}" width="360" height="240" loading="lazy">
+          <span class="venue-badge">{{ publication.badge | escape }}</span>
+        </a>
+      {% endif %}
+      <div class="paper-info">
+        {% unless teaser %}<span class="venue-badge text-badge">{{ publication.badge | escape }}</span>{% endunless %}
+        <h3 class="paper-title"><a href="{{ publication.links.first.url | escape }}">{{ publication.title | escape }}</a></h3>
+        <div class="paper-authors">{{ publication.authors | markdownify }}</div>
+        {% if publication.equal_contribution %}<p class="paper-contribution">* Equal contribution (co-first authors).</p>{% endif %}
+        <p class="paper-venue"><em>{{ publication.venue | escape }}</em>, {{ publication.year }}.</p>
+        {% if publication.award %}<p class="paper-award">{{ publication.award | escape }}</p>{% endif %}
+        <div class="paper-links">
+          {% for link in publication.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
+          <a href="{{ '/publications/' | append: publication.id | append: '/' | relative_url }}" aria-label="Citation for {{ publication.title | escape }}">Citation</a>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ol>

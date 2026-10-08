@@ -1,0 +1,144 @@
+# The ids match the existing publication filenames, without the .md extension.
+# Publication years describe the published work, not the filename's sorting date.
+- id: 2026-09-29-sing
+  title: "SING: Semantic Image Communications using Null-Space and INN-Guided Diffusion Models"
+  authors: "J. Chen<sup>*</sup>, S. F. Yilmaz<sup>*</sup>, **D. You**<sup>*</sup>, P. L. Dragotti, and D. Gündüz"
+  equal_contribution: true
+  year: 2026
+  venue: "IEEE Transactions on Communications (Early Access)"
+  badge: "TCOMM"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/11715782"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2503.12484"
+
+- id: 2026-07-06-frequency-aware-perceptual-optimization
+  title: "Frequency-Aware Perceptual Optimization for Low-Complexity Implicit Image Compression"
+  authors: "H. Wu, G. Li, **D. You**, P. L. Dragotti, and D. Gündüz"
+  year: 2026
+  venue: "International Conference on Machine Learning (ICML)"
+  badge: "ICML"
+  links:
+    - label: Paper
+      url: "https://proceedings.mlr.press/v306/wu26ae.html"
+    - label: PDF
+      url: "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26ae/wu26ae.pdf"
+
+- id: 2026-07-06-lottery-prior
+  title: "Lottery Prior: Randomized Neural Compression for Zero-Shot Inverse Problems"
+  authors: "H. Wu, **D. You**, P. L. Dragotti, and D. Gündüz"
+  year: 2026
+  venue: "International Conference on Machine Learning (ICML)"
+  badge: "ICML"
+  links:
+    - label: Paper
+      url: "https://proceedings.mlr.press/v306/wu26bu.html"
+    - label: PDF
+      url: "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wu26bu/wu26bu.pdf"
+
+- id: 2025-12-06-realism-and-fidelity
+  title: "Realism and Fidelity: Two Sides of a Coin in Deep Joint Source-Channel Coding"
+  authors: "H. Wu, W. Wang, **D. You**, P. L. Dragotti, and D. Gündüz"
+  year: 2025
+  venue: "NeurIPS Workshop on AI and ML for Next-Generation Wireless Communications and Networking (AI4NextG)"
+  badge: "NeurIPS Workshop"
+  links:
+    - label: Paper
+      url: "https://openreview.net/forum?id=5pcWOzIwCr"
+    - label: PDF
+      url: "https://openreview.net/pdf?id=5pcWOzIwCr"
+
+- id: 2024-10-01-paper-title-number-1
+  title: "INDIGO+: A Unified INN-Guided Probabilistic Diffusion Algorithm for Blind and Non-Blind Image Restoration"
+  authors: "**D. You** and P. L. Dragotti"
+  year: 2024
+  venue: "IEEE Journal of Selected Topics in Signal Processing"
+  badge: "JSTSP"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/10670023"
+    - label: Code
+      url: "https://github.com/dy547/indigo_plus"
+
+- id: 2024-12-11-paper-title-number-10
+  title: "A Hallucination Metric and Correction Scheme for Diffusion-Based Image Restoration"
+  authors: "D. Siromani, **D. You**, and P. L. Dragotti"
+  year: 2024
+  venue: "IEEE International Workshop on Machine Learning for Signal Processing (MLSP)"
+  badge: "MLSP"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/10734729"
+
+- id: 2024-12-17-paper-title-number-7
+  title: "WiMANS: A Benchmark Dataset for WiFi-Based Multi-User Activity Sensing"
+  authors: "S. Huang, K. Li, **D. You**, Y. Chen, A. Lin, S. Liu, X. Li, and J. A. McCann"
+  year: 2024
+  venue: "European Conference on Computer Vision (ECCV)"
+  badge: "ECCV"
+  links:
+    - label: Paper
+      url: "https://eccv.ecva.net/virtual/2024/poster/1818"
+    - label: PDF
+      url: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05826.pdf"
+    - label: Code
+      url: "https://github.com/huangshk/WiMANS"
+
+- id: 2024-12-31-paper-title-number-11
+  title: "CommIN: Semantic Image Communications as an Inverse Problem with INN-Guided Diffusion Models"
+  authors: "J. Chen<sup>*</sup>, **D. You**<sup>*</sup>, D. Gündüz, and P. L. Dragotti"
+  equal_contribution: true
+  year: 2024
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  badge: "ICASSP"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/10448462"
+
+- id: 2024-02-17-paper-title-number-4
+  title: "INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems"
+  authors: "**D. You**, A. Floros, and P. L. Dragotti"
+  year: 2023
+  venue: "IEEE International Workshop on Multimedia Signal Processing (MMSP)"
+  badge: "MMSP"
+  award: "Best Paper Award"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/10337733"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2306.02949"
+
+- id: 2021-02-17-paper-title-number-6
+  title: "ISTA-Net++: Flexible Deep Unfolding Network for Compressive Sensing"
+  authors: "**D. You**, J. Xie, and J. Zhang"
+  year: 2021
+  venue: "IEEE International Conference on Multimedia and Expo (ICME)"
+  badge: "ICME"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/9428249"
+    - label: Code
+      url: "https://github.com/jianzhangcs/ISTA-Netpp"
+
+- id: 2021-10-01-paper-title-number-2
+  title: "COAST: COntrollable Arbitrary-Sampling NeTwork for Compressive Sensing"
+  authors: "**D. You**, J. Zhang, J. Xie, B. Chen, and S. Ma"
+  year: 2021
+  venue: "IEEE Transactions on Image Processing"
+  badge: "TIP"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/9467810"
+    - label: Code
+      url: "https://github.com/jianzhangcs/COAST"
+
+- id: 2021-10-01-paper-title-number-9
+  title: "AlignTransformer: Hierarchical Alignment of Visual Regions and Disease Tags for Medical Report Generation"
+  authors: "**D. You**, F. Liu, S. Ge, X. Xie, J. Zhang, and X. Wu"
+  year: 2021
+  venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+  badge: "MICCAI"
+  links:
+    - label: Paper
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-87199-4_7"

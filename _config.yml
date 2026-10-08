@@ -24,7 +24,7 @@ author:
   avatar           : "di.png"
   name             : "Di You"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student"
+  bio              : "Ph.D. Student"
   location         : # "Department of Electrical and Electronic Engineering"
   employer         : "Imperial College London"
   uri              : "https://dy547.github.io/"
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=sq21_AQAAAAJ"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -82,6 +82,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  workshops:
+    title: 'Workshop Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -143,6 +145,7 @@ social:
   name                   : "Di You"
   links:
     - "https://github.com/dy547"
+    - "https://scholar.google.com/citations?user=sq21_AQAAAAJ"
 
 
 # Analytics
@@ -290,7 +293,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: academic
       author_profile: true
       share: true
       comments: true

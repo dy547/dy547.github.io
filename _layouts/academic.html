@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta property="og:image" content="{{ '/images/di.png' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="academic-wrapper">
+    {% include academic-profile.html %}
+    <main id="main-content" class="academic-content" tabindex="-1">
+      {% if page.collection == 'publications' %}
+        {% assign publication_id = page.path | split: '/' | last | remove: '.md' %}
+        {% assign publication = site.data.homepage_publications | where: 'id', publication_id | first %}
+        {% if publication %}
+          <a class="back-link" href="{{ '/publications/' | relative_url }}">← All publications</a>
+          <h1 class="detail-title">{{ publication.title | escape }}</h1>
+          <div class="detail-authors">{{ publication.authors | markdownify }}</div>
+          {% if publication.equal_contribution %}<p class="paper-contribution">* Equal contribution (co-first authors).</p>{% endif %}
+          <p class="detail-venue"><em>{{ publication.venue | escape }}</em>, {{ publication.year }}.</p>
+          {% if publication.award %}<p class="paper-award">{{ publication.award | escape }}</p>{% endif %}
+          <div class="paper-links detail-links">
+            {% for link in publication.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
+          </div>
+          {% assign teaser = site.data.homepage_teasers[publication.id] %}
+          {% if teaser %}<img class="detail-teaser" src="{{ teaser | relative_url }}" alt="Overview figure from {{ publication.title | escape }}">{% endif %}
+          <h2 class="citation-heading">Citation</h2>
+          <div class="citation">{{ content }}</div>
+        {% else %}
+          <h1 class="detail-title">{{ page.title | escape }}</h1>
+          {{ content }}
+        {% endif %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+      <footer class="academic-footer">
+        <span>© {{ site.time | date: '%Y' }} {{ site.author.name | escape }}</span>
+        <span>Inspired by <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a></span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
