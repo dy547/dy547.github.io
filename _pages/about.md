@@ -1,12 +1,17 @@
 ---
 permalink: /
-title: "About me"
+title: "Di You"
+description: "Di You is a PhD student at Imperial College London, researching computer vision, signal processing, and deep learning for inverse problems."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Di You received the bachelor’s degree in electronic and information engineering from Dalian University of Technology, Dalian, China, in 2019, and the master’s degree in computer applications technology from Peking University, Shenzhen, China, in 2022. She is currently working toward the Doctoral degree with Electrical and Electronic Engineering Department, Imperial College London, London, U.K., under the supervision of Professor Pier Luigi Dragotti. Her research interests include the areas of computer vision, signal processing, and deep learning, specifically for inverse problems. She was awarded the President’s Ph.D. Scholarship by Imperial College London.
+Di You is a PhD student in the Department of Electrical and Electronic Engineering at Imperial College London, supervised by Professor Pier Luigi Dragotti. Her research focuses on computer vision, signal processing, and deep learning for inverse problems.
+
+She received her bachelor’s degree in electronic and information engineering from Dalian University of Technology in 2019 and her master’s degree in computer applications technology from Peking University, Shenzhen, in 2022. She was awarded the President’s Ph.D. Scholarship by Imperial College London.
+
+See her [publications]({{ '/publications/' | relative_url }}) for research papers.
 
 ------
