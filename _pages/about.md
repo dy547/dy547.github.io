@@ -26,7 +26,7 @@ redirect_from:
 
 <section class="academic-section" id="publications" aria-labelledby="publications-heading">
   <h2 id="publications-heading">Publications</h2>
-  <p class="publication-note">You can also find my publications on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+  <p class="publication-note">You can also find my publications on <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>.</p>
   {% include academic-publications.html %}
 </section>
 
